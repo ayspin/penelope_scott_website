@@ -1,9 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 body {
+    display: inline-block;
     background-color: #37353F;
+    font-family: "Source Code Pro", monospace;
 }
 
-h1, h2, p {
+nav {
+    display: inline-block;
+    height: 75px;
+    background-color: #524874
+}
+.logo {
+    text-align: left;
+}
+.top {
+    width: 634px;
+    background-color: #8B6E9E;
+}
+div {
+    background-color: #242229
+}
+
+.summary {
+    width: 358px;
+}
+
+h1, p {
     color: #C3BFD5;
+    background-color: #37353F;
+    font-weight: normal;
+}
+
+h2, a {
+    color: #F088F2;
     font-weight: normal;
 }
 
