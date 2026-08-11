@@ -1,0 +1,29 @@
+nav {
+    grid-area: nav;
+} 
+
+aside {
+    grid-area: aside;
+} 
+
+main {
+    grid-area: main;
+}
+
+card1 {
+    grid-area: card1;
+}
+
+card2 {
+    grid-area: card2;
+}
+body {
+    display: grid;
+    grid-template-columns: 393px 458px 982px;
+    grid-template-rows: 75px 509px 1020px;
+    grid-template-areas: 
+        "nav nav nav"
+        "aside main main"
+        "aside card1 card2";
+    gap: 8px;
+}
