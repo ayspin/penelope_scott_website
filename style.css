@@ -7,29 +7,29 @@ body {
 }
 
 nav {
-    display: inline;
+    display: flex;
+    flex-direction: collumn;
     height: 75px;
     background-color: #524874;
     line-height: 75px;
 }
 
-nav div {
-    display: inline;
-    height: 75px;
-    background-color: #524874;
-    line-height: 75px;
+nav .header {
+    flex-grow: 1;
+    text-align: center;
+}
+nav h1 {
+    display: inline-block;
+    margin: 0;
+    width: 676px;
+    font-size: 48px;
+    background-color: #8B6E9E;
 }
 
 .icon {
     padding-left: 7px;
 }
-.top {
-    width: 676px;
-    font-size: 48px;
-    background-color: #8B6E9E;
-    text-align: center;
 
-}
 div {
     background-color: #242229
 }
@@ -38,7 +38,7 @@ div {
     width: 358px;
 }
 
-h1 {
+h1, h2 {
     color: #EAE5FF;
     background-color: #37353F;
     font-weight: normal;
@@ -49,7 +49,7 @@ h1 {
     font-weight: normal;
 }
 
-h2, a {
+h3, a {
     color: #F088F2;
     font-weight: normal;
 }
