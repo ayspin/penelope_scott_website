@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-    display: inline-block;
     background-color: #37353F;
     font-family: "Source Code Pro", monospace;
 }
@@ -30,7 +29,10 @@ a {
 nav .header {
     flex-grow: 1;
     text-align: center;
+    height: 61px;
+    vertical-align: middle;
 }
+
 nav h1 {
     display: inline-block;
     margin: 0;
@@ -43,9 +45,14 @@ nav h1 {
     padding-left: 7px;
 }
 
-
 .summary {
     width: 358px;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
 h1, h2 {
@@ -53,6 +60,7 @@ h1, h2 {
     background-color: #37353F;
     font-weight: normal;
 }
+
  p {
     color: #C3BFD5;
     background-color: #37353F;
@@ -64,3 +72,7 @@ h3, a {
     font-weight: normal;
 }
 
+section img {
+    display: flex;
+    flex-direction: column;
+}

@@ -2,28 +2,45 @@ nav {
     grid-area: nav;
 } 
 
-aside {
-    grid-area: aside;
-} 
-
 main {
     grid-area: main;
 }
 
-card1 {
+header {
+    grid-area: header;
+}
+
+#card1  {
     grid-area: card1;
 }
 
-card2 {
+#card2 {
     grid-area: card2;
 }
+
+#card3 {
+    grid-area: card3;
+}
+#card4 {
+    grid-area: card4;
+}
+
+#sect1 {
+    grid-area: sect1;
+}
+
+#sect2 {
+    grid-area: sect2;
+}
+
 body {
+    grid-template-columns: 395px 4fr 4fr 4fr 4fr;
+    grid-template-rows: 75px 55px 585px 440px;
     display: grid;
-    grid-template-columns: 393px 458px 982px;
-    grid-template-rows: 75px 509px 1020px;
     grid-template-areas: 
-        "nav nav nav"
-        "aside main main"
-        "aside card1 card2";
+        "nav nav nav nav nav"
+        "header header header header header"
+        "main card1 card2 card3 card4"
+        "main sect1 sect1 sect2 sect2";
     gap: 8px;
 }
