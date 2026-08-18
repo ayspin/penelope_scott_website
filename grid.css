@@ -25,6 +25,14 @@ header {
     grid-area: card4;
 }
 
+#footer1 {
+    grid-area: footer1;
+}
+
+#footer2 {
+    grid-area: footer2;
+}
+
 #sect1 {
     grid-area: sect1;
 }
@@ -33,14 +41,22 @@ header {
     grid-area: sect2;
 }
 
+#sect3 {
+    grid-area: sect3
+}
+
+#sect4 {
+    grid-area: sect4;
+}
 body {
     grid-template-columns: 395px 4fr 4fr 4fr 4fr;
-    grid-template-rows: 75px 55px 585px 440px;
+    grid-template-rows: 75px 55px 585px 55px 440px;
     display: grid;
     grid-template-areas: 
         "nav nav nav nav nav"
-        "header header header header header"
+        "main header header header header"
         "main card1 card2 card3 card4"
-        "main sect1 sect1 sect2 sect2";
+        "main footer1 footer1 footer2 footer2"
+        "main sect1 sect2 sect3 sect4";
     gap: 8px;
 }

@@ -39,6 +39,7 @@ nav h1 {
     width: 676px;
     font-size: 48px;
     background-color: #8B6E9E;
+    line-height: 61px;
 }
 
 .icon {
@@ -55,12 +56,25 @@ header {
     text-align: center;
 }
 
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 h1, h2 {
     color: #EAE5FF;
     background-color: #37353F;
     font-weight: normal;
 }
 
+h2 {
+    font-size: 36px;
+    padding: 0;
+    margin: 0;
+    margin-right: 112px;
+    vertical-align: middle;
+}
  p {
     color: #C3BFD5;
     background-color: #37353F;
@@ -71,6 +85,22 @@ h3, a {
     color: #F088F2;
     font-weight: normal;
 }
+
+h3 {
+    font-size: 24px;
+}
+
+h3, p {
+    border: 10px solid #242229;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+hr {
+    width: 100%;
+    border: 3.5px solid #524874;
+}
+
 
 section img {
     display: flex;
